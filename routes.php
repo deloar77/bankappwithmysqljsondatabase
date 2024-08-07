@@ -1,0 +1,26 @@
+<?php
+
+return [    
+    '/'=>'app/views/home.php',
+    '/admin/login_page'=>'app/controllers/admin/login_page.php',
+    '/admin/admin_verify'=>'app/controllers/admin/admin_verify.php',
+    '/admin/dashboard_page'=>'app/controllers/admin/dashboard_page.php',
+    '/admin/transaction_page'=>'app/controllers/admin/transactions.php',
+    '/approve'=>'app/controllers/admin/approve.php',
+    '/customers'=>'app/controllers/customer/index.php',
+    '/customer'=>'app/controllers/customer/show.php',
+    '/customers/create'=>'app/controllers/customer/create.php', 
+    '/deposit/create'=>'app/controllers/transaction/deposit.php',
+    '/withdraw'=>'app/controllers/transaction/withdraw.php',
+    '/transaction'=>'app/controllers/transaction/transaction.php',
+    '/customer/login_page'=>'app/controllers/customer/login_page.php',
+     '/customer/login_verify'=>'app/controllers/customer/login_verify.php',
+    '/customer/register_page'=>'app/controllers/customer/register_page.php',
+    '/customer/register_create'=>'app/controllers/customer/register_create.php',
+    '/customer/dashboard_page'=>'app/controllers/customer/dashboard_page.php',
+    '/customer/deposit_page'=>'app/controllers/customer/deposit_page.php',
+    '/customer/transfer_page'=>'app/controllers/customer/transfer_page.php',
+    '/customer/withdraw_page'=>'app/controllers/customer/withdraw_page.php',
+    '/signout'=>'app/controllers/signout.php',
+    '/NotFound'=>'app/controllers/NotFound.php',
+];
